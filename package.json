@@ -1,0 +1,23 @@
+{
+  "name": "crawler_brasileirao",
+  "version": "1.0.0",
+  "description": "Pegando os jogos da próxima rodada do Campeonato Brasileiro a partir de um Web scraping no site do Globo Esporte.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tales Medeiros de Araujo",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.5.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tales313/Crawler_Brasileirao.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tales313/Crawler_Brasileirao/issues"
+  },
+  "homepage": "https://github.com/Tales313/Crawler_Brasileirao#readme"
+}
