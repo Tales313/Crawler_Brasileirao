@@ -4,6 +4,7 @@
 O objetivo desse projeto é criar uma API que traz sempre a rodada do Campeonato Brasileiro (série A) que está sendo exibida neste link https://globoesporte.globo.com/futebol/brasileirao-serie-a/
 Para isso é feito um Web scraping nessa página recolhendo cada um dos 10 jogos e adicionando-os em um array de Json's, como abaixo:
 
+```
 [ 
   { mandante: 'Fluminense',
     visitante: 'Palmeiras',
@@ -36,6 +37,7 @@ Para isso é feito um Web scraping nessa página recolhendo cada um dos 10 jogos
     visitante: 'Bahia',
     infos: 'Qua 29/08/2018 Castelão (CE) 19:30' } 
 ]
+  ```
 
 O "puppeteer" é a única dependência desse projeto. Ele é um módulo node que possui centenas de funcionalidades para manipular páginas web.
 
