@@ -24,7 +24,8 @@ function teste() {
       $('div.placar-jogo').each((i, item) => { //para cada jogo, pegue os nomes dos dois times
           let obj = {
               mandante: $(item).find('.placar-jogo-equipes-escudo-mandante').attr('title'),
-              visitante: $(item).find('.placar-jogo-equipes-escudo-visitante').attr('title')
+              visitante: $(item).find('.placar-jogo-equipes-escudo-visitante').attr('title'),
+              infos: $(item).find('.placar-jogo-informacoes').text()
           }
           jogos.push(obj)
       })
